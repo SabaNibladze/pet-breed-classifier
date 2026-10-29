@@ -2,6 +2,14 @@
 
 ეს პროექტი Upgaming-ის Machine Learning Engineer (Computer Vision) დავალებისთვის გავაკეთე. ამოცანა მარტივია: სურათზე კატის ან ძაღლის ჯიშის ამოცნობა. მონაცემად Oxford-IIIT Pet Dataset ავიღე (37 ჯიში, დაახლოებით 7400 სურათი), მოდელებად კი წინასწარ გაწვრთნილი ResNet18 და MobileNetV3-Small, რომლებიც ჩემს მონაცემებზე დავაზუსტე.
 
+## დემო და მოდელი
+
+ცოცხალი დემო (სურათს ტვირთავთ და ჯიშს გეუბნებათ): https://huggingface.co/spaces/Saba77-0/pet-breed-classifier
+
+გაწვრთნილი მოდელი (ResNet18, PyTorch): https://huggingface.co/spaces/Saba77-0/pet-breed-classifier/blob/main/finetune_resnet18.pth
+
+დემოს კოდი (`app.py`) იმავე Space-შია. ტექნიკური ანგარიში იხილეთ `REPORT.md`-ში. მოდელის თავიდან მისაღებად გაუშვით notebook, რომელიც ტრენინგს ხელახლა გააკეთებს (დაახლოებით 10 წუთი Colab-ის T4 GPU-ზე).
+
 ## რა გავაკეთე
 
 - სურათები 224x224-ზე დავიყვანე და train/val/test ნაწილებად გავყავი (2944 / 736 / 3669). train-ზე გამოვიყენე მარტივი augmentation (შემთხვევითი ამოჭრა და სარკისებური გადაბრუნება).
