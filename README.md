@@ -40,6 +40,6 @@
 1. გახსენით `pet_breed_classifier.ipynb` Google Colab-ში.
 2. Runtime → Change runtime type → T4 GPU.
 3. Runtime → Run all. მონაცემები თავისით ჩამოიტვირთება.
-4. ბოლო უჯრა ჩართავს დემოს, სადაც სურათს ტვირთავთ და ჯიშს გეუბნებათ.
+4. Gradio-ს უჯრა (მეტრიკების უჯრის წინა) ჩართავს დემოს, სადაც სურათს ტვირთავთ და ჯიშს გეუბნებათ.
 
 საჭირო ბიბლიოთეკები `requirements.txt`-შია. ყველაფერი Google Colab-ზე გავუშვი (PyTorch 2.11).
